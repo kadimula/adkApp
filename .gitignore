@@ -1,0 +1,9 @@
+# Ignore all .env files everywhere
+**/.env
+**/.env.*
+
+# Optional: ignore Python cache and venvs
+__pycache__/
+*.py[cod]
+.venv/
+env/
