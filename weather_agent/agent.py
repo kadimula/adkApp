@@ -3,6 +3,10 @@ from zoneinfo import ZoneInfo
 from google.adk.agents import Agent
 from vertexai.preview import reasoning_engines
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 def get_weather(city: str) -> dict:
     """Retrieves the current weather report for a specified city.

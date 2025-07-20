@@ -32,3 +32,6 @@ remote_app = agent_engines.create(
     extra_packages=["weather_agent"],
     requirements=["google-cloud-aiplatform[adk,agent_engines]"],
 )
+
+
+# agent_engines.delete(resource_name="projects/421799929445/locations/us-central1/reasoningEngines/4989592562940510208", force=True)

@@ -3,7 +3,7 @@ from vertexai.preview.reasoning_engines import AdkApp
 
 
 adk_app = agent_engines.get(
-    "projects/421799929445/locations/us-central1/reasoningEngines/4989592562940510208"
+    "projects/421799929445/locations/us-central1/reasoningEngines/2065349029893505024"
 )
 
 session = adk_app.create_session(user_id="kishore_1")
